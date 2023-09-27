@@ -2,7 +2,7 @@
 
 # asdf-yt-dlp [![Build](https://github.com/svenluijten/asdf-yt-dlp/actions/workflows/build.yml/badge.svg)](https://github.com/svenluijten/asdf-yt-dlp/actions/workflows/build.yml) [![Lint](https://github.com/svenluijten/asdf-yt-dlp/actions/workflows/lint.yml/badge.svg)](https://github.com/svenluijten/asdf-yt-dlp/actions/workflows/lint.yml)
 
-[yt-dlp](https://github.com/yt-dlp/yt-dlp) plugin for the [asdf version manager](https://asdf-vm.com).
+[yt-dlp](https://github.com/yt-dlp/yt-dlp) plugin for the [`asdf` version manager](https://asdf-vm.com).
 
 </div>
 
@@ -14,15 +14,10 @@
 - [License](#license)
 
 # Dependencies
-
-**TODO: adapt this section**
-
 - `bash`, `curl`, `tar`: generic POSIX utilities.
-- `SOME_ENV_VAR`: set this environment variable in your shell config to load the correct version of tool x.
 
 # Install
-
-Plugin:
+## Plugin:
 
 ```shell
 asdf plugin add yt-dlp
@@ -30,7 +25,7 @@ asdf plugin add yt-dlp
 asdf plugin add yt-dlp https://github.com/svenluijten/asdf-yt-dlp.git
 ```
 
-yt-dlp:
+## `yt-dlp`:
 
 ```shell
 # Show all installable versions
@@ -46,15 +41,12 @@ asdf global yt-dlp latest
 yt-dlp --help
 ```
 
-Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to
-install & manage versions.
+Check [`asdf`'s README](https://github.com/asdf-vm/asdf) for more instructions on how to install & manage versions.
 
 # Contributing
-
 Contributions of any kind welcome! See the [contributing guide](contributing.md).
 
 [Thanks goes to these contributors](https://github.com/svenluijten/asdf-yt-dlp/graphs/contributors)!
 
 # License
-
 See [LICENSE](LICENSE) © [Sven Luijten](https://github.com/svenluijten/)
